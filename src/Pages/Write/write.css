@@ -1,0 +1,45 @@
+.write{
+    margin-top: 20px;
+    height: 100vw;
+}
+.addIcon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1631a5;
+    cursor: pointer;
+    font-size: 20px;
+}
+.title{
+    margin-left: 20px;
+}
+.writeInput{
+    font-size: 18px;
+    border: none;
+    padding: 15px;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 16px;
+}
+.writeSubmit{
+    font-size: 18px;
+    padding: 8px 18px;
+    border-radius: 25px;
+    background-color: rgba(38,107,255,0.98);
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.writeSubmit:hover{
+    background-color: rgba(57, 177, 72, 0.98);
+}

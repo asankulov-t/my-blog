@@ -1,0 +1,41 @@
+.sideBar{
+    flex: 3;
+    margin-top: 20px;
+}
+.person{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.sideBarList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.sideBarListItem{
+    cursor: pointer;
+    background-color: rgba(54,255,195,0.98);
+    padding: 8px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.sideBarListItem:hover{
+    background-color: #409fd7;
+    color: white;
+}
+
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.sideBarIcon{
+    margin-left: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.sideBarIcon:hover{
+    color: #409fd7;
+}
